@@ -1,0 +1,407 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: #F2BFBE;
+  --sec-color: #FAE9E9;
+  --tr-color: #DC5B59;
+  --tulisan: #303030;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.tsec {
+  height: 2000px;
+  background-color: var(--main-color);
+  background-image: url(../assets/backgroud1.png);
+  -webkit-backdrop-filter: blur(20%);
+          backdrop-filter: blur(20%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: var(--sec-color);
+  width: 100%;
+  z-index: 1000;
+}
+.box .navbar .container-fluid .navbar-brand {
+  font-size: 20px;
+  color: var(--tulisan);
+  font-weight: bold;
+}
+.box .navbar .container-fluid .navbar-collapse .d-flex .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  color: var(--tulisan);
+  font-weight: 500;
+}
+.box .img-fluid {
+  margin-top: 50px;
+  margin-left: 75px;
+}
+.box .info-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+.box .info-page .textinfo {
+  margin-left: 225px;
+  color: var(--tulisan);
+}
+.box .info-page .textinfo h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.box .info-page .textinfo .hr {
+  width: 135px;
+  background-color: var(--tr-color);
+  height: 3px;
+  border-radius: 3px;
+}
+.box .info-page .textinfo .penerimaan p {
+  color: var(--tulisan);
+  font-weight: 400;
+}
+.box .info-page .textinfo .penerimaan p span {
+  color: var(--tulisan);
+  font-weight: 600;
+}
+.box .info-page .textinfo a {
+  background-color: var(--tr-color);
+  color: white;
+  border-radius: 47px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 170px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+}
+.box .info-page .textinfo a:hover {
+  background-color: var(--tr-color);
+  opacity: 70%;
+}
+.box .info-page .imageinfo {
+  margin-left: 70px;
+}
+
+.jenjang .title-jenjang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jenjang .title-jenjang .pilihan-jenjang {
+  color: var(--tr-color);
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 600;
+  background-color: var(--sec-color);
+  width: 663px;
+  height: 63px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.jenjang .jenjangs {
+  background-color: #F6D4D3;
+  width: 1678px;
+  height: 600px;
+  border-radius: 16px;
+}
+.jenjang .jenjangs .row .kartu {
+  margin-top: 51px;
+}
+.jenjang .jenjangs .row .kartu .card .card-body .text-center .topi {
+  width: 120px;
+  height: 120px;
+}
+.jenjang .jenjangs .row .kartu .card .card-body .text-center span {
+  color: var(--tr-color);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 66px;
+}
+.jenjang .jenjangs .row .kartu .card .card-body .text-center p {
+  color: var(--tulisan);
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 35px;
+}
+.jenjang .jenjangs .btn-jenjang {
+  margin-top: 29px;
+  border-radius: 35px;
+  justify-content: center;
+  background-color: var(--tr-color);
+  border: none;
+  width: 200px;
+  height: 45px;
+}
+.jenjang .jenjangs .btn-jenjang .btn {
+  color: white;
+  font-weight: 400px;
+}
+.jenjang .jenjangs .btn-jenjang:hover {
+  background-color: var(--tr-color);
+  opacity: 70%;
+}
+
+.program-unggulan .title-program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.program-unggulan .title-program .pilihan-program {
+  color: var(--tr-color);
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 600;
+  background-color: var(--sec-color);
+  width: 663px;
+  height: 63px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 75px;
+}
+.program-unggulan .row {
+  width: 100%;
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.program-unggulan .row .textimage {
+  background-color: var(--sec-color);
+  border-radius: 15px;
+  width: 560px;
+  margin: 0;
+  padding: 0;
+  height: 280px;
+}
+.program-unggulan .row .textimage .text {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.program-unggulan .row .textimage .text h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.program-unggulan .row .textimage .text p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.program-unggulan .row .textimage img {
+  margin-left: 20px;
+}
+.program-unggulan .row .image {
+  width: 560px;
+}
+
+.biaya-pendidikan .title-biaya {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biaya-pendidikan .title-biaya .pilihan-biaya {
+  color: var(--tr-color);
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 600;
+  background-color: var(--sec-color);
+  width: 663px;
+  height: 63px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 75px;
+}
+.biaya-pendidikan .row .biaya {
+  width: 600px;
+  height: 520px;
+  background-color: var(--sec-color);
+  margin-left: 40px;
+  border-radius: 15px;
+  font-weight: 700;
+}
+.biaya-pendidikan .row .biaya h3 {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #E37C7A;
+  font-size: 35px;
+}
+.biaya-pendidikan .row .biaya .harga-daftar {
+  margin-left: 50px;
+  color: var(--tr-color);
+}
+.biaya-pendidikan .row .biaya .harga-daftar h4 {
+  font-size: 35px;
+}
+.biaya-pendidikan .row .biaya .harga-daftar h5 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.biaya-pendidikan .row .biaya .detail-harga {
+  margin-left: 70px;
+}
+.biaya-pendidikan .row .biaya .detail-harga p {
+  font-weight: 400;
+  margin-left: 5px;
+  margin-top: -4px;
+}
+.biaya-pendidikan .row .biaya .keterangan img {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.biaya-pendidikan .row .biaya .keterangan .brosur h3 {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 23px;
+}
+.biaya-pendidikan .row .biaya .keterangan .brosur h5 {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.biaya-pendidikan .row .biaya .keterangan .brosur img {
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.agenda-psb .agenda {
+  background-color: #EA9D9C;
+  width: 1300px;
+  height: 578px;
+  margin-top: 75px;
+}
+.agenda-psb .agenda .kalender {
+  margin-top: 150px;
+  margin-left: 220px;
+}
+.agenda-psb .agenda .jadwal {
+  margin-top: 150px;
+  margin-left: 33px;
+}
+
+.galeri-foto {
+  margin-top: 70px;
+}
+.galeri-foto .galeri {
+  background-color: var(--main-color);
+}
+.galeri-foto .galeri .foto {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.galeri-foto .galeri .foto img {
+  margin-top: -70px;
+  width: 25%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  transition: all ease-in-out 0.5s;
+  filter: grayscale(100%);
+}
+.galeri-foto .galeri .foto img:hover {
+  width: 30%;
+  filter: grayscale(0%);
+}
+.galeri-foto .galeri .foto2 {
+  margin-top: -50px;
+}
+.galeri-foto .galeri .text-foto {
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 200px;
+  height: 24px;
+  color: var(--tr-color);
+}
+
+.hana {
+  background-image: url(../assets/Group\ 21.png);
+  position: relative;
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+  height: 500px;
+  margin-top: 70px;
+}
+.hana .text-ajakan .textAjakan {
+  padding: 60px;
+}
+.hana .text-ajakan .textAjakan h1 {
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.hana .text-ajakan .textAjakan img {
+  margin-left: 525px;
+  width: 86px;
+}
+.hana .text-ajakan .textAjakan h5 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.hana .text-ajakan .btn-ajakan {
+  margin-top: 29px;
+  border-radius: 35px;
+  justify-content: center;
+  background-color: var(--tr-color);
+  border: none;
+  width: 200px;
+  height: 45px;
+  color: white;
+}
+
+footer {
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  margin-top: 150px;
+  position: relative;
+  background-color: var(--main-color);
+  z-index: 1;
+  width: 100%;
+  height: 460px;
+}
+footer .komentar {
+  padding-left: 200px;
+  padding-top: 50px;
+}
+footer .komentar .p-text {
+  margin-top: -10px;
+}
+footer .komentar .p-text p {
+  margin-top: 2px;
+}
+footer .hubungi {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+footer p {
+  margin-top: -30px;
+}
+footer p h6 span {
+  width: 200px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+footer h5 {
+  margin-top: -20px;
+}/*# sourceMappingURL=style.css.map */
